@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+body {
+  overflow-x: hidden; 
+  overflow-y: scroll;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body::-webkit-scrollbar {
+  /* display: none;
+  -ms-overflow-style: none;  
+  scrollbar-width: none;   */
+  background-color: rgb(122, 26, 58);
+  width: 6px;
+  background-color: transparent;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* body::-webkit-scrollbar-button {
+  background-color: rgb(20, 177, 33)
+} */
+
+body::-webkit-scrollbar-thumb {
+  background: #ffe8e0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.container {
+  /* padding: 1em; */
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100%;
+  border: 2px solid rgb(145, 139, 128);
+}
+
+.title {
+  /* margin: 1em; */
+  padding: 2em;
+  border: 1px solid blue;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.content {
+  /* margin: 1em;  */
+  padding: 1em; 
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin-top: auto;
+  margin-bottom: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: 2px solid orange;
+  justify-content: left;
+  /* align-items: center; */
+  /* align-content: center; */
+  /* width: 100%; */
 }
 
-.App-link {
-  color: #61dafb;
+.item {
+  margin: 1em; 
+  padding: 1em; 
+  /* margin-left: auto;
+  margin-right: auto; */
+  border: 1px solid pink;
+  display: flex;
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.detail {
+  /* margin: 1em; */
+  padding: 1em;
+  border: 1px solid red;
+}
+
+h1 {
+  /* margin: 1em; */
+  padding: 1em;
+  border: 1px solid yellowgreen;
+}
+
+h2 {
+  /* margin: 1em; */
+  padding: 1em;
+  border: 1px solid yellowgreen;
+
+}
+
+h3 {
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid yellowgreen;
+
+}
+
+a, Link {
+  text-decoration: none;
+  padding: 1em;
+  color: inherit;
+  /* margin: 1em; */
+  /* border: 1px solid purple; */
+}
+
+p {
+  padding: 1em;
+  border: 1px solid yellowgreen;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 1em;
+  /* margin: 1em; */
+  /* border: 1px solid yellow; */
 }

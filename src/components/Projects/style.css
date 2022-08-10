@@ -1,0 +1,34 @@
+.projectList{
+    margin: 1em;
+    padding: 1em; 
+    border: 1px solid rgb(26, 216, 184);
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.projectDetail {
+  /* margin: 1em; */
+  padding: 1em;
+  border: 1px solid rgb(199, 53, 228);
+}
+
+.projectListItem {
+    /* padding: 1em; */
+    border: 1px solid rgb(219, 87, 35);
+    margin: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    /* height: 100vh; */
+    /* width: auto; */
+    /* padding-top: 3em; */
+}
+
+/* .projectListLink {
+    /* margin: 1em;
+    padding: 1em;
+    border: 1px solid purple; }*/

@@ -1,0 +1,66 @@
+.star {
+     width: 32px;
+    height: 32px;
+    padding: 1em;
+}
+
+.rocket {
+    width: 40x;
+    height: 40px;
+    padding: 1em;
+}
+
+.planet2 {
+    width: 48px;
+    height: 48px;
+   padding: 1em;
+}
+
+.nodeLogo {
+    width: 40x;
+    height: 40px;
+   padding: 1em;
+}
+.jsLogo {
+    width: 40x;
+    height: 40px;
+   padding: 1em;
+}
+
+.cssLogo {
+    width: 46px;
+    height: 48px;
+    padding: 1em;
+}
+
+.expressLogo {
+    width: 32x;
+    height: 32px;
+   padding: 1em;   
+}
+
+.swe {
+color: #fff;
+}
+
+
+/* .planet1, .planet2, .astronaut, .rocket, .JSlogo {
+    width: 100px;
+    height: 100px;
+} */
+
+.twelvePtStar {
+    font-size: 4em;
+    color: white;
+    padding: 1em;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.sceneIcons {
+    display: flex;
+    margin-top: 30em;
+    margin-left: 25em;
+}
