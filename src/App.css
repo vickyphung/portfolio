@@ -32,7 +32,7 @@ body::-webkit-scrollbar-thumb {
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
-  width: 100%;
+  width: 99vw;
   border: 2px solid rgb(145, 139, 128);
 }
 
@@ -76,6 +76,7 @@ body::-webkit-scrollbar-thumb {
   /* margin: 1em; */
   padding: 1em;
   border: 1px solid red;
+  width: 100%;
 }
 
 h1 {

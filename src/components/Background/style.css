@@ -27,6 +27,12 @@
    padding: 1em;
 }
 
+.mongo {
+    width: 40x;
+    height: 40px;
+   padding: 1em;
+}
+
 .cssLogo {
     width: 46px;
     height: 48px;
@@ -61,6 +67,6 @@ color: #fff;
 
 .sceneIcons {
     display: flex;
-    margin-top: 30em;
+    margin-top: 25em;
     margin-left: 25em;
 }

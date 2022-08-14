@@ -4,103 +4,129 @@ import { Link } from 'react-router-dom'
 import Navigation from '../Navigation'
 import { motion } from "framer-motion";
 
+
 export default function Projects () {
 
+    const projects = [
+        {
+        title: '📍 Places',
+        description: 'Places to go in the DMV',
+        github: 'https://github.com/vickyphung/places-frontend , https://github.com/vickyphung/places_backend',
+        demo: 'full crud',
+        tech: 'React Node Express MongoDB',
+        id: 1,
+        },
+        {
+        title: '🪐 APOD',
+        description: 'Astronomy Picture of the Day',
+        github: 'https://github.com/vickyphung/APOD',
+        demo: 'http://apodwithbear.herokuapp.com/',
+        tech: 'React, JavaScript',
+        id: 2,
+        },
+        {
+        title: '🂡 Blackjack',
+        description: 'Blackjack card game',
+        github: 'https://github.com/vickyphung/blackjack',
+        demo: 'http://blackjackwithbear.netlify.com/',
+        tech: 'Vanilla JavaScript',
 
-    const container = {
-        hidden: { opacity: 1, scale: 0 },
-        visible: {
-          opacity: 1,
-          scale: 1,
-          transition: {
-            delayChildren: 0.3,
-            staggerChildren: 0.2
-          }
-        }
-      };
+        id: 3,
+        },
+        {
+        title: '🌞 Weather',
+        description: 'Current, Hourly, Weekly Weather',
+        github: 'https://github.com/vickyphung/weather-react',
+        demo: 'http://weatherwithbear.herokuapp.com/',
+        tech: 'React, JavaScript',
+        id: 4,
+        },
+        // {
+        // title: '🪐 APOD',
+        // description: 'Astronomy Picture of the Day',
+        // github: 'https://github.com/vickyphung/APOD',
+        // demo: 'http://apodwithbear.herokuapp.com/',
+        // tech: 'React, JavaScript',
+        // id: 5,
+        // },
+        // {
+        // title: '🪐 APOD',
+        // description: 'Astronomy Picture of the Day',
+        // github: 'https://github.com/vickyphung/APOD',
+        // demo: 'http://apodwithbear.herokuapp.com/',
+        // tech: 'React, JavaScript',
+        // id: 6,
+        // },
+    ];
 
-      const item = {
-        hidden: { y: 20, opacity: 0 },
-        visible: {
-          y: 0,
-          opacity: 1
+const container = {
+    // hidden: { opacity: 1, scale: 0 },
+    visible: {
+        opacity: 1,
+        scale: 1,
+        transition: {
+        delayChildren: 0.25,
+        staggerChildren: 0.35
         }
-      };
+    }
+    };
+
+    const item = {
+    hidden: { y: 20, opacity: 0 },
+    visible: {
+        y: 0,
+        opacity: 1
+    }
+    };
     return (
         <div className='container'>
-            <Navigation />
+            {/* <Navigation /> */}
             <div className='title'>
                 <h1>Projects</h1>
+                <span><a href="/">home</a></span>
             </div>
                 
 
             <motion.ul
-                className="container"
+                className="projectList"
                 variants={container}
                 initial="hidden"
                 animate="visible"
             >
-            {[0, 1, 2, 3].map((index) => (
-                <motion.li key={index} className="item" variants={item} />
-            ))}
+                {projects.map((project) => (
+                    <motion.li
+                        variants={item}
+                        project={project}
+                        key={project.id} 
+                        className="projectListItem" 
+                    >
+                        <h2>
+                            <span className='projectTitle'>
+                                {project.title}
+                            </span>
+                        </h2>
+                        <motion.ul
+                            // className="container"
+                            variants={container}
+                            initial="hidden"
+                            animate="visible"
+                        >
+                            {projects.map((project) => (
+                                <motion.li
+                                    variants={item}
+                                    project={project}
+                                    key={project.id} 
+                                    className="projectDetail" 
+                                >        
+                                    {project.id}
+                                    {project.description}
+
+                                </motion.li>
+                            ))}          
+                        </motion.ul>
+                    </motion.li>
+                ))}          
             </motion.ul>
-
-
-
-                <ul className="projectList">
-                    <li className="projectListItem">
-                        <a className="projectListLink" href="http://ndsgakjdsb.com/">
-                           <h2><span>📍 Places</span></h2>
-                        </a>
-                        <div className="projectDetail">
-                            <p>Places to go in the DMV </p>
-                            <p>Full-stack CRUD web app</p>
-                            <p>React Node Express MongoDB</p>
-                            <p>https://github.com/vickyphung/places-frontend</p>
-                            <p>https://github.com/vickyphung/places_backend</p>
-                        </div>
-                    </li>
-
-                    <li className="projectListItem" >
-                        <a className="projectListLink" href="http://apodwithbear.herokuapp.com/">
-                            <h2>🪐 APOD</h2>
-                        </a>
-                        <div className="projectDetail">
-                            <p>Astronomy Picture of the Day</p>
-                            <p>React</p>
-                            https://github.com/vickyphung/APOD
-                        </div>
-                    </li>
-                    <li className="projectListItem">
-                        <a className="projectListLink" href="http://weatherwithbear.herokuapp.com/">
-                            <h2>🂡 Blackjack</h2> 
-                        </a>
-                        <div className="projectDetail">
-                            Blackjack Card Game 
-                            <p>Vanilla JS, HTML, CSS</p>
-                            https://github.com/vickyphung/blackjack  
-                        </div>
-                    </li>
-                    <li className="projectListItem">
-                        <a className="projectListLink" href="http://weatherwithbear.herokuapp.com/">
-                            <h2>🌞 Weather</h2> 
-                        </a>
-                        <div className="projectDetail">
-                            <p>Weather: Current and Forecast</p>
-                            <p>React</p>
-                            <p>https://github.com/vickyphung/weather-react</p>
-                        </div>
-                    </li>
-                    <li className="projectListItem">
-                        <Link className="projectListLink" to="/todo">
-                           <h2>📝 To-Do</h2> 
-                        </Link>
-                        <div className="projectDetail">
-                            To-Do List
-                            <p>React</p>
-                        </div>
-                    </li>                      
-                </ul>
         </div>
     )
 }

@@ -3,69 +3,67 @@ import React, { useEffect } from "react";
 import Styled from "styled-components";
 import Parallax from "parallax-js";
 import PropTypes from "prop-types";
+import Navigation from '../Navigation';
 
 import  backgroundImage from "../../images/vector-gradient.jpg";
-
 import expressImage from "../../images/expressLogo.png";
-import stara from "../../images/stara.svg";
-
+import mongoImage from "../../images/mongodb.svg";
+import stara from "../../images/mongodb.svg";
 import star from "../../images/starflwer.png";
 import nodeImage from "../../images/nodejs.png";
 import htmlImage from "../../images/html5.png";
 import reactImage from "../../images/react.png";
 import cssImage from "../../images/css3.png";
 import jsImage from "../../images/JSlogo.png";
-import Navigation from '../Navigation';
 
 
 const layers = [
-  // {
-  //   name: "text",
-  //   image: textImage,
-  //   dataDepth: ".45"
-  // },
   {
-    name: "rocket",
-    image: reactImage,
-    dataDepth: "-4.5"
+    name: "stara",
+    image: stara,
+    dataDepth: ".45"
   },
   {
     name: "nodeLogo",
     image: nodeImage,
-    dataDepth: "-3.1"
+    dataDepth: "-4"
+  },
+  {
+    name: "rocket",
+    image: reactImage,
+    dataDepth: "-3"
   },
   {
     name: "expressLogo",
     image: expressImage,
+    dataDepth: "-2"
+  },
+  {
+    name: "mongo",
+    image: mongoImage,
     dataDepth: "-1"
   },
   {
     name: "star",
     image: star,
-    dataDepth: ".5"
+    dataDepth: "-.1"
   },
 
   {
     name: "jsLogo",
     image: jsImage,
-    dataDepth: "1.5"
-  },
-
-  {
-    name: "planet2",
-    image: htmlImage,
-    dataDepth: "4.5"
+    dataDepth: "1"
   },
   {
     name: "cssLogo",
     image: cssImage,
+    dataDepth: "2"
+  },
+  {
+    name: "planet2",
+    image: htmlImage,
     dataDepth: "3"
   }
-  // {
-  //   name: "stara",
-  //   image: stara,
-  //   dataDepth: "-5"
-  // }
 ];
 
 const Container = Styled.div`
@@ -92,7 +90,7 @@ return (
     <div className='navbar'>
       <Navigation />
     </div>
-   
+
     <div id="scene" className='sceneIcons'>
       {layers.map((l, index) => (
         <img
@@ -104,16 +102,6 @@ return (
         />
       ))}
     </div>
-    
-
-
-
-
-
-
-
-
-
   </Container>
 );
 };
@@ -135,8 +123,6 @@ Background.defaultProps = {
 };
 
 export default Background;
-
-
 
 
     // {/* <div className="bio"> 

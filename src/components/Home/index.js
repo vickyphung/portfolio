@@ -11,17 +11,7 @@ export default function Home () {
     <div className='container'>
 
         <Background />
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        <Projects />
         
         
     </div>
