@@ -90,6 +90,7 @@ return (
     <div className='navbar'>
       <Navigation />
     </div>
+    <div><p>Vicky Phung</p><p>Software Engineer</p></div>
 
     <div id="scene" className='sceneIcons'>
       {layers.map((l, index) => (
