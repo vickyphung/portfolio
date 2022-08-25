@@ -87,46 +87,60 @@ const container = {
             </div>
                 
 
-            <motion.ul
-                className="projectList"
-                variants={container}
-                initial="hidden"
-                animate="visible"
-            >
-                {projects.map((project) => (
-                    <motion.li
-                        variants={item}
-                        project={project}
-                        key={project.id} 
-                        className="projectListItem" 
-                    >
-                        <h2>
-                            <span className='projectTitle'>
-                                {project.title}
-                            </span>
-                        </h2>
-                        <motion.ul
-                            // className="container"
-                            variants={container}
-                            initial="hidden"
-                            animate="visible"
-                        >
-                            {projects.map((project) => (
-                                <motion.li
-                                    variants={item}
-                                    project={project}
-                                    key={project.id} 
-                                    className="projectDetail" 
-                                >        
-                                    {project.id}
-                                    {project.description}
+  
 
-                                </motion.li>
-                            ))}          
-                        </motion.ul>
-                    </motion.li>
-                ))}          
-            </motion.ul>
+<motion.ul
+    className="projectList"
+    variants={container}
+    initial="hidden"
+    animate="visible"
+>   
+    {projects.map((project) => (
+        <motion.li
+            variants={item}
+            project={project}
+            key={project.id} 
+            className="projectListItem" 
+        >
+        <h2>
+            <span className='projectTitle'>
+                {project.title}
+            </span>
+        </h2>
+
+
+        {/* <div>{project.description}</div>
+        <div>{project.demo}</div>
+        <div>{project.tech}</div> */}
+
+
+
+            <motion.li
+                variants={item}
+                project={project}
+                key={project.id} 
+                className="projectItem" 
+            >
+                <div>{project.description}</div>
+                <div>{project.demo}</div>
+                <div>{project.tech}</div>
+            </motion.li>
+
+
+
+
+        
+    </motion.li>
+
+))}        
+</motion.ul>
         </div>
     )
 }
+
+
+
+
+
+
+

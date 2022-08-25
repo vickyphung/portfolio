@@ -5,7 +5,8 @@ import Parallax from "parallax-js";
 import PropTypes from "prop-types";
 import Navigation from '../Navigation';
 
-import  backgroundImage from "../../images/vector-gradient.jpg";
+// import  backgroundImage from "../../images/vector-gradient.jpg";
+import  backgroundImage from "../../images/klimtcottagegarden.jpg";
 import expressImage from "../../images/expressLogo.png";
 import mongoImage from "../../images/mongodb.svg";
 import stara from "../../images/mongodb.svg";
@@ -16,13 +17,12 @@ import reactImage from "../../images/react.png";
 import cssImage from "../../images/css3.png";
 import jsImage from "../../images/JSlogo.png";
 
-
 const layers = [
-  {
-    name: "stara",
-    image: stara,
-    dataDepth: ".45"
-  },
+  // {
+  //   name: "stara",
+  //   image: stara,
+  //   dataDepth: ".45"
+  // },
   {
     name: "nodeLogo",
     image: nodeImage,
@@ -124,9 +124,3 @@ Background.defaultProps = {
 };
 
 export default Background;
-
-
-    // {/* <div className="bio"> 
-    // <span className='twelvePtStar'>✹</span>
-    //     <p>Coding my way to bohemian rhapsody.</p> 
-    // </div> */}

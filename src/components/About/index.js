@@ -2,25 +2,13 @@ import React from 'react'
 import './style.css'
 
 export default function About () {
-
-  return (
+  return 
     <div className='container'>
         
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
         
     </div>
-  )
 }
+
+
