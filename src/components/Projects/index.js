@@ -41,14 +41,14 @@ export default function Projects () {
         tech: 'React, JavaScript',
         id: 4,
         },
-        // {
-        // title: '🪐 APOD',
-        // description: 'Astronomy Picture of the Day',
-        // github: 'https://github.com/vickyphung/APOD',
-        // demo: 'http://apodwithbear.herokuapp.com/',
-        // tech: 'React, JavaScript',
-        // id: 5,
-        // },
+        {
+        title: '🂡 Baccarat',
+        description: 'Baccarat',
+        github: 'https://github.com/vickyphung/baccarat',
+        demo: '',
+        tech: 'React, JavaScript',
+        id: 5,
+        },
         // {
         // title: '🪐 APOD',
         // description: 'Astronomy Picture of the Day',
