@@ -70,14 +70,14 @@ return (
                 >                
                     <CustomLink className="navLinks" to="/contact">contact</CustomLink>
                 </MenuItem>
-                <MenuItem
+                {/* <MenuItem
                     bg='transparent'
                     border='none'
                     fontSize='16pt'
 
                 >                
                     <CustomLink className="navLinks" to="/stuff">stuff</CustomLink>   
-                </MenuItem>
+                </MenuItem> */}
             </MenuList>
         </Menu>
 

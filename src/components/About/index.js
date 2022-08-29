@@ -1,14 +1,12 @@
 import React from 'react'
-import './style.css'
+import Background from '../Background'
 
-export default function About () {
-  return 
-    <div className='container'>
-        
-        
-
-        
+function About() {
+  return (
+    <div>
+      <Background />
     </div>
+  )
 }
 
-
+export default About

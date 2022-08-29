@@ -49,14 +49,14 @@ export default function Projects () {
         tech: 'React, JavaScript',
         id: 5,
         },
-        // {
-        // title: '🪐 APOD',
-        // description: 'Astronomy Picture of the Day',
-        // github: 'https://github.com/vickyphung/APOD',
-        // demo: 'http://apodwithbear.herokuapp.com/',
-        // tech: 'React, JavaScript',
-        // id: 6,
-        // },
+        {
+        title: '👾 USS Pinkybear',
+        description: 'Space Battle Console Game',
+        github: 'https://github.com/vickyphung/spacebattle',
+        demo: 'http://usspinkybear.netlify.com/',
+        tech: 'React, JavaScript',
+        id: 6,
+        },
     ];
 
 const container = {

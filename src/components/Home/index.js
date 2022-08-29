@@ -10,7 +10,8 @@ export default function Home () {
   return (
     <div className='container'>
 
-        <Background />
+        <Navigation />
+        {/* <Background /> */}
         {/* <Projects /> */}
         
         
