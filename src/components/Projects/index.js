@@ -1,6 +1,7 @@
 import React from 'react'
 import './style.css'
 import { motion } from "framer-motion";
+import { ArrowUpIcon } from '@chakra-ui/icons';
 
 
 export default function Projects () {
@@ -10,8 +11,8 @@ export default function Projects () {
         title: '📍 Places',
         description: 'Places to go in the DMV',
         github: 'https://github.com/vickyphung/places-frontend , https://github.com/vickyphung/places_backend',
-        demo: 'full crud',
-        tech: 'React Node Express MongoDB',
+        demo: 'xxxx',
+        tech: `Users can view, search, post, favorite, and review places to go. Search and add places using Google Maps Places API. Full-CRUD MERN app.`,
         id: 1,
         },
         {
@@ -19,7 +20,7 @@ export default function Projects () {
         description: 'Astronomy Picture of the Day',
         github: 'https://github.com/vickyphung/APOD',
         demo: 'http://apodwithbear.herokuapp.com/',
-        tech: 'React, JavaScript',
+        tech: `View daily APOD, a random number of posts, or pick by date. React SPA, NASA APOD API.`,
         id: 2,
         },
         {
@@ -27,7 +28,7 @@ export default function Projects () {
         description: 'Blackjack Card Game',
         github: 'https://github.com/vickyphung/blackjack',
         demo: 'http://blackjackwithbear.netlify.com/',
-        tech: 'Vanilla JavaScript',
+        tech: 'Players have a $1,000 bankroll. Vanilla JS.',
 
         id: 3,
         },
@@ -36,7 +37,7 @@ export default function Projects () {
         description: 'Current, Hourly, Weekly Weather',
         github: 'https://github.com/vickyphung/weather-react',
         demo: 'http://weatherwithbear.herokuapp.com/',
-        tech: 'React, JavaScript',
+        tech: 'View weather by zipcode search, provides geolocation info., dark mode option. React SPA, openweather API.',
         id: 4,
         },
         {
@@ -44,7 +45,7 @@ export default function Projects () {
         description: 'Baccarat Card Game',
         github: 'https://github.com/vickyphung/baccarat',
         demo: 'http://baccaratwithbear.netlify.com/',
-        tech: 'Vanilla JavaScript',
+        tech: 'Players have a $10,000 bankroll. Still in development. Vanilla JS.',
         id: 5,
         },
         {
@@ -52,7 +53,7 @@ export default function Projects () {
         description: 'Space Battle Console Game',
         github: 'https://github.com/vickyphung/spacebattle',
         demo: 'http://usspinkybear.netlify.com/',
-        tech: 'Vanilla JavaScript',
+        tech: 'OOP, vanilla JS.',
         id: 6,
         },
     ];
