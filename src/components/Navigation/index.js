@@ -33,51 +33,25 @@ return (
                 variant='outline'
                 bg='transparent'
                 border='none'
-                colorScheme='white'
-                color='white'
+                colorScheme='black'
+                color='black'
                 fontSize='28pt'
             >
                 
             </MenuButton>
 
             <MenuList
-                // bg='white'
                 className="menuList"
             >  
                 <MenuItem
                     bg='transparent'
-                    // color='white'
                     border='none'
                     fontSize='16pt'
                 >                
-                    <CustomLink className="navLinks" to="/about">about</CustomLink>
+                    <CustomLink className="navLinks" to="/spaceground">just for fun</CustomLink>
                 </MenuItem>
-                <MenuItem
-                    bg='transparent'
-                    border='none'
-                    fontSize='16pt'
 
 
-                >
-                    <CustomLink className="navLinks" to="/projects">projects</CustomLink>
-                </MenuItem>
-                <MenuItem
-                    bg='transparent'
-                    border='none'
-                    fontSize='16pt'
-
-
-                >                
-                    <CustomLink className="navLinks" to="/contact">contact</CustomLink>
-                </MenuItem>
-                {/* <MenuItem
-                    bg='transparent'
-                    border='none'
-                    fontSize='16pt'
-
-                >                
-                    <CustomLink className="navLinks" to="/stuff">stuff</CustomLink>   
-                </MenuItem> */}
             </MenuList>
         </Menu>
 

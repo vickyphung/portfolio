@@ -1,7 +1,19 @@
 .socialIcon {
-    width: 96px;
-    height: 96px;
+    width: 48px;
+    height: 48px;
     padding: 1em;
     border: 1px solid pink;
+    margin: 1em;
+}
+
+.contactIcons{
+    margin: 1em;
+    /* padding: 1em; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.content {
     margin: 1em;
 }

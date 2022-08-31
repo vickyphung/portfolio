@@ -3,6 +3,8 @@ import './style.css'
 import Navigation from '../Navigation'
 import Projects from '../Projects'
 import Background from '../Background'
+import Contact from '../Contact'
+import About from '../About'
 
 
 export default function Home () {
@@ -11,8 +13,9 @@ export default function Home () {
     <div className='container'>
 
         <Navigation />
-        {/* <Background /> */}
-        {/* <Projects /> */}
+        <About />
+        <Projects />
+        <Contact />
         
         
     </div>

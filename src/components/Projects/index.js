@@ -1,7 +1,5 @@
 import React from 'react'
 import './style.css'
-import { Link } from 'react-router-dom'
-import Navigation from '../Navigation'
 import { motion } from "framer-motion";
 
 
@@ -26,7 +24,7 @@ export default function Projects () {
         },
         {
         title: '🂡 Blackjack',
-        description: 'Blackjack card game',
+        description: 'Blackjack Card Game',
         github: 'https://github.com/vickyphung/blackjack',
         demo: 'http://blackjackwithbear.netlify.com/',
         tech: 'Vanilla JavaScript',
@@ -43,10 +41,10 @@ export default function Projects () {
         },
         {
         title: '🂡 Baccarat',
-        description: 'Baccarat',
+        description: 'Baccarat Card Game',
         github: 'https://github.com/vickyphung/baccarat',
-        demo: '',
-        tech: 'React, JavaScript',
+        demo: 'http://baccaratwithbear.netlify.com/',
+        tech: 'Vanilla JavaScript',
         id: 5,
         },
         {
@@ -54,7 +52,7 @@ export default function Projects () {
         description: 'Space Battle Console Game',
         github: 'https://github.com/vickyphung/spacebattle',
         demo: 'http://usspinkybear.netlify.com/',
-        tech: 'React, JavaScript',
+        tech: 'Vanilla JavaScript',
         id: 6,
         },
     ];
@@ -80,11 +78,8 @@ const container = {
     };
     return (
         <div className='container'>
-            {/* <Navigation /> */}
-            <div className='title'>
-                <h1>Projects</h1>
-                <span><a href="/">home</a></span>
-            </div>
+
+
                 
 
   

@@ -27,7 +27,7 @@
     } */
 
 .navTitle {
-    color: white;
+    /* color: white; */
     font-size: 2rem;
     font-weight: 500;
     padding: 1em;
@@ -49,7 +49,7 @@
     justify-content: center;
     background-color: #bb6ef2;
     font-family: inherit;
-    color:white;
+    /* color:white; */
  
 }
 
