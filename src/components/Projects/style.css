@@ -1,7 +1,7 @@
 .projectList{
     margin: 1em;
     padding: 1em; 
-    border: 5px solid rgb(26, 216, 184);
+    /* border: 5px solid rgb(26, 216, 184); */
     /* width: 90%; */
     height: auto;
     margin-left: auto;
@@ -29,6 +29,7 @@
     /* height: 100vh; */
     /* width: auto; */
     /* padding-top: 3em; */
+    border-radius: 1.5rem;
 }
 
 /* .projectListLink {

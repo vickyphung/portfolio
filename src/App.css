@@ -55,7 +55,7 @@ body::-webkit-scrollbar-thumb {
   margin-bottom: auto;
   display: flex;
   flex-direction: column;
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
   justify-content: left;
   /* align-items: center; */
   /* align-content: center; */
@@ -90,7 +90,9 @@ h1 {
 h2 {
   /* margin: 1em; */
   padding: 1em;
-  border: 1px solid yellowgreen;
+  /* border: 2px solid yellowgreen; */
+  border-radius: .5em;
+  /* background-color: aquamarine; */
 
 }
 
@@ -120,3 +122,12 @@ ul, li {
   /* margin: 1em; */
   /* border: 1px solid yellow; */
 }
+
+
+.about {
+  margin: 1em;
+  padding: 1em;
+  margin-bottom: -.25em;
+}
+
+
