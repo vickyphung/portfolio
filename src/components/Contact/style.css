@@ -7,14 +7,9 @@
 
 .contactIcons{
     margin: 1em;
-    /* padding: 1em; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.content {
-    margin: 1em;
 }
 
 

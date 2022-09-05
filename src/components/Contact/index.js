@@ -32,7 +32,7 @@ export default function Contact() {
           {socialLinks.map((socialLink) => (
             <motion.div
               className="box"
-              whileHover={{ scale: 1.25 }}
+              whileHover={{ scale: 1.20 }}
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
             >
               <div className="contactInfo">
