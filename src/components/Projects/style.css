@@ -1,8 +1,6 @@
 .projectList{
     margin: 1em;
     padding: 1em; 
-    /* border: 5px solid rgb(26, 216, 184); */
-    /* width: 90%; */
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -10,7 +8,6 @@
     margin-bottom: auto;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .projectDetail {
@@ -20,31 +17,22 @@
 }
 
 .projectListItem {
-    /* padding: 1em; */
     border: 2px solid rgb(219, 87, 35);
+    background-color: rgb(250, 109, 73);
     margin: 1em;
     margin-left: auto;
     margin-right: auto;
     width: 42.5%;
-    /* height: 100vh; */
-    /* width: auto; */
-    /* padding-top: 3em; */
     border-radius: 1.5rem;
+    color: white;
 }
 
-/* .projectListLink {
-    /* margin: 1em;
-    padding: 1em;
-    border: 1px solid purple; }*/
 
+.item {
+    color: rgb(0, 0, 0);
+}
 
-
-
-
-    .item {
-        color: rgb(0, 0, 0);
-    }
-
-    .projectTitle{
-        height: 200px;
-    }
+.projectTitle{
+    height: 200px;
+    color: black;
+}
