@@ -18,8 +18,8 @@ body::-webkit-scrollbar-thumb {
 
 .container {
   height: auto;
-  width: 99vw;
-  border: 2px solid #ffcce1;
+  width: 100vw;
+  /* border: 2px solid #ffcce1; */
 }
 
 .content {

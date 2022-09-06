@@ -4,18 +4,31 @@
     height: auto;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .projectListItem {
     border: 5px solid #e0d7ff;
     background-color: #d7eeff;
     margin: 1em;
-    width: 42.5%;
+    width: 40%;
     border-radius: 2.5%;
     color: gray;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
 }
 
 .projectTitle{
     height: 200px;
     color: black;
+    padding: 1em;
+    justify-content: left;
+}
+
+.demoLink {
+    color: gray;
 }

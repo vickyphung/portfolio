@@ -1,5 +1,10 @@
 .about {
-    margin: 1em;
-    padding: 1em;
+    padding: 2em;
     margin-bottom: -.25em;
+    border-bottom: 5px solid #ffcce1;
   }
+
+/* .intro {
+
+
+} */

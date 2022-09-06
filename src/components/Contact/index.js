@@ -22,7 +22,7 @@ export default function Contact() {
   ];
 
   return (
-    <div className="container">
+    <div className="contact">
       <div className="content">
         <div className="contactIcons">
           <h2>
