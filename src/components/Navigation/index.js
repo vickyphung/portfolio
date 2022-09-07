@@ -20,7 +20,7 @@ export default function Navigation() {
           </Link>
         </div>
 
-        <Menu bg="white">
+        {/* <Menu bg="white">
           <MenuButton
             as={IconButton}
             icon={<HamburgerIcon />}
@@ -39,7 +39,7 @@ export default function Navigation() {
               </CustomLink>
             </MenuItem>
           </MenuList>
-        </Menu>
+        </Menu> */}
       </div>
     </nav>
   );
