@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import { motion } from "framer-motion";
-import { ArrowUpIcon } from "@chakra-ui/icons";
+
 
 export default function Projects() {
 const projects = [

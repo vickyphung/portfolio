@@ -1,13 +1,13 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import "./style.css";
-import {
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  IconButton,
-} from "@chakra-ui/react";
-import { HamburgerIcon } from "@chakra-ui/icons";
+// import {
+//   Menu,
+//   MenuButton,
+//   MenuList,
+//   MenuItem,
+//   IconButton,
+// } from "@chakra-ui/react";
+// import { HamburgerIcon } from "@chakra-ui/icons";
 import { motion } from "framer-motion";
 
 export default function Navigation() {
