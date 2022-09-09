@@ -17,8 +17,11 @@
 
 .skillsIcons{
   display: flex;
-  gap: 20px;
+  gap: 3px;
   flex-wrap: wrap;
+  margin-top: -12.5px;
+  margin-bottom: -12.5px;
+
 }
 
 .expressIcon{
