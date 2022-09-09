@@ -58,7 +58,13 @@ function About() {
         >
           {skillImage.map((skillImage, index) => (
             <motion.li variants={item} skillImage={skillImage} key={index}>
+                 <motion.div
+              className="box"
+              whileHover={{ scale: 1.20 }}
+              transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            >
               <img src={skillImage.image} className="skillSetIcon" />
+              </motion.div>
             </motion.li>
           ))}
         </motion.ul>
