@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import { motion } from "framer-motion";
+import {Link} from "react-router-dom"
 
 
 export default function Projects() {
@@ -103,7 +104,7 @@ return (
             className="projectItem"
         >
             <div>{project.description}</div>
-            <p>{project.demo}</p>
+            <p><Link to="{project.demo}">{project.demo}</Link></p>
             <div>{project.tech}</div>
         </motion.li>
         </motion.li>

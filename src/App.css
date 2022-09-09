@@ -50,8 +50,12 @@ h2 {
 
 a, Link {
   text-decoration: none;
-  padding: 1em;
   color: inherit;
+}
+
+a:hover {
+  /* color: #eb8fe5; */
+  font-weight: bold;
 }
 
 ul, li {
