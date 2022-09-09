@@ -16,7 +16,7 @@ export default function Navigation() {
       <div className="navContent">
         <div className="navHome">
           <Link className="navTitle" to="/">
-            ✹ Under Another Sky
+          ✹ vicky.wtf
           </Link>
         </div>
 

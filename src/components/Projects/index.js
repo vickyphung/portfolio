@@ -104,7 +104,7 @@ return (
             className="projectItem"
         >
             <div>{project.description}</div>
-            <p><Link to="{project.demo}">{project.demo}</Link></p>
+            <p><Link className="demoLink" to="{project.demo}">{project.demo}</Link></p>
             <div>{project.tech}</div>
         </motion.li>
         </motion.li>
