@@ -14,6 +14,7 @@ export default function Home () {
         <About />
         <Projects />
         <Contact />
+        (c)pinkybear2022
     </div>
   )
 }
