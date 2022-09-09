@@ -63,8 +63,8 @@ visible: {
     opacity: 1,
     scale: 1,
     transition: {
-    delayChildren: 0.25,
-    staggerChildren: 0.35,
+    delayChildren: 0.35,
+    staggerChildren: 0.45,
     },
 },
 };

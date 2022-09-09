@@ -13,13 +13,23 @@ import jsImage from "../../images/JSlogo.png";
 import exImage from "../../images/expressjs-icon.svg";
 
 function About() {
+  const skillImage = [
+    { image: htmlImage },
+    { image: cssImage },
+    { image: jsImage },
+    { image: mongoImage },
+    { image: exImage },
+    { image: nodeImage },
+    { image: reactImage },
+  ];
+
   const container = {
     visible: {
       opacity: 1,
       scale: 1,
       transition: {
-        delayChildren: 0.25,
-        staggerChildren: 0.35,
+        delayChildren: 0.35,
+        staggerChildren: 0.45,
       },
     },
   };
@@ -46,27 +56,11 @@ function About() {
           animate="visible"
           className="skillsIcons"
         >
-          <motion.li variants={item}>
-            <img src={htmlImage} className="skillSetIcon" alt="Logo" />
-          </motion.li>
-          <motion.li variants={item}>
-            <img src={cssImage} className="skillSetIcon" alt="Logo" />
-          </motion.li>
-          <motion.li variants={item}>
-            <img src={jsImage} className="skillSetIcon" alt="Logo" />
-          </motion.li>
-          <motion.li variants={item}>
-            <img src={mongoImage} className="skillSetIcon" alt="Logo" />
-          </motion.li>
-          <motion.li variants={item}>
-            <img src={exImage} className="skillsetIcon" alt="Logo" />
-          </motion.li>
-          <motion.li variants={item}>
-            <img src={reactImage} className="skillSetIcon" alt="Logo" />
-          </motion.li>
-          <motion.li variants={item}>
-            <img src={nodeImage} className="skillSetIcon" alt="Logo" />
-          </motion.li>
+          {skillImage.map((skillImage, index) => (
+            <motion.li variants={item} skillImage={skillImage} key={index}>
+              <img src={skillImage.image} className="skillSetIcon" />
+            </motion.li>
+          ))}
         </motion.ul>
       </div>
 
