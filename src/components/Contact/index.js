@@ -40,7 +40,7 @@ export default function Contact() {
                     alt="github"
                   ></img>
                 </a>
-                {socialLink.email}
+                <p className="email">{socialLink.email}</p>
               </div>
             </motion.div>
           ))}
