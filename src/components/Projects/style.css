@@ -18,11 +18,12 @@
     height: 225px;
     display: flex;
     flex-wrap: wrap;
-    align-items: left;
     justify-content: center;
     word-wrap:break-word;
-    flex-direction: column;
+    /* flex-direction: column; */
     letter-spacing: .05px;
+    align-items: left;
+    text-align: center;
 }
 
 .projectTitle{
@@ -39,4 +40,9 @@
 .projectContainer {
     display: flex;
     flex-wrap: wrap;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
 }

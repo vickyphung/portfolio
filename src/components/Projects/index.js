@@ -52,8 +52,8 @@ const projects = [
     title: "👾 Star Wars API",
     description: "Star Wars API",
     github: "https://github.com/vickyphung/xxxx",
-    demo: "xxxxxxxx",
-    tech: "OOP, vanilla JS.",
+    demo: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    tech: "",
     id: 6,
 },
 ];
@@ -92,11 +92,12 @@ return (
         className="projectListItem"
         >
 
-        
+        <div className="projects">
         <h2>
             <span className="projectTitle">{project.title}</span>
         </h2>
-
+        </div>
+        
         <motion.li
             variants={item}
             project={project}
@@ -108,8 +109,10 @@ return (
             <div>{project.tech}</div>
         </motion.li>
         </motion.li>
+
     ))}
     </motion.ul>
+
 </div>
 );
 }
