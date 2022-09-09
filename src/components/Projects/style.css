@@ -12,14 +12,16 @@
     border: 5px solid #e0d7ff;
     background-color: #d7eeff;
     margin: 1em;
-    width: 40%;
+    width: 400px;
     border-radius: 2.5%;
     color: gray;
     height: 250px;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: left;
+    align-items: left;
+    justify-content: center;
+    word-wrap:break-word;
+    flex-direction: column;
 }
 
 .projectTitle{
@@ -31,4 +33,9 @@
 
 .demoLink {
     color: gray;
+}
+
+.projectContainer {
+    display: flex;
+    flex-wrap: wrap;
 }

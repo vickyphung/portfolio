@@ -25,9 +25,6 @@ export default function Contact() {
     <div className="contact">
       <div className="content">
         <div className="contactIcons">
-          <h2>
-            <span className="contactTitle">Contact</span>
-          </h2>
 
           {socialLinks.map((socialLink) => (
             <motion.div

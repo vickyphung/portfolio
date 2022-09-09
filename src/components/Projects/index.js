@@ -76,7 +76,7 @@ visible: {
 },
 };
 return (
-<div className="container">
+<div className="projectContainer">
     <motion.ul
     className="projectList"
     variants={container}
@@ -90,6 +90,8 @@ return (
         key={project.id}
         className="projectListItem"
         >
+
+        
         <h2>
             <span className="projectTitle">{project.title}</span>
         </h2>
