@@ -12,7 +12,7 @@ const projects = [
     github:
     "https://github.com/vickyphung/places-frontend , https://github.com/vickyphung/places_backend",
     demo: "xxxxxxxx",
-    tech: `Users can view, search, post, favorite, and review places to go. Search and add places using Google Maps Places API. Full-CRUD MERN app.`,
+    tech: `Users can view, search, post, update, delete, favorite, and review places to go. Search and add places using Google Maps Places API. Full-CRUD MERN app. Still in development.`,
     id: 1,
     },
     {
