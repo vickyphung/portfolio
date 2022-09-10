@@ -2,12 +2,13 @@
     padding: 2em;
     margin-bottom: -.25em;
     border-bottom: 5px solid #ffcce1;
+    border-top: 5px solid #ffcce1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
+    width: 100%;
   }
 
 .skillSetIcon {
@@ -17,7 +18,6 @@
 
 .skillsIcons{
   display: flex;
-  gap: 3px;
   flex-wrap: wrap;
   margin-top: -12.5px;
   margin-bottom: -12.5px;
@@ -27,3 +27,7 @@
 .expressIcon{
   width:90px;
 }
+
+/* .skillset {
+
+} */

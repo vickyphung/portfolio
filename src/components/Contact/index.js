@@ -23,9 +23,6 @@ export default function Contact() {
 
   return (
     <div className="contact">
-      <div className="content">
-        <div className="contactIcons">
-
           {socialLinks.map((socialLink) => (
             <motion.div
               className="box"
@@ -40,12 +37,11 @@ export default function Contact() {
                     alt="github"
                   ></img>
                 </a>
-                <p className="email">{socialLink.email}</p>
+                {/* <p className="email">{socialLink.email}</p> */}
               </div>
             </motion.div>
           ))}
-        </div>
-      </div>
+
     </div>
   );
 }

@@ -40,22 +40,22 @@ const projects = [
     tech: "View weather by zipcode search, provides geolocation info., dark mode option. React SPA, openweather API.",
     id: 4,
     },
-    {
-    title: "🂡 Baccarat",
-    description: "Baccarat Card Game",
-    github: "https://github.com/vickyphung/baccarat",
-    demo: "xxxxxxxx",
-    tech: "Players have a $10,000 bankroll. Still in development. Vanilla JS.",
-    id: 5,
-    },
-    {
-    title: "👾 Star Wars API",
-    description: "Star Wars API",
-    github: "https://github.com/vickyphung/xxxx",
-    demo: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-    tech: "",
-    id: 6,
-},
+    // {
+    // title: "🂡 Baccarat",
+    // description: "Baccarat Card Game",
+    // github: "https://github.com/vickyphung/baccarat",
+    // demo: "xxxxxxxx",
+    // tech: "Players have a $10,000 bankroll. Still in development. Vanilla JS.",
+    // id: 5,
+    // },
+//     {
+//     title: "👾 Star Wars API",
+//     description: "Star Wars API",
+//     github: "https://github.com/vickyphung/xxxx",
+//     demo: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+//     tech: "",
+//     id: 6,
+// },
 ];
 
 const container = {
@@ -104,9 +104,12 @@ return (
             key={project.id}
             className="projectItem"
         >
+            <div className="projectText">
             <div>{project.description}</div>
-            <p><Link className="demoLink" to="{project.demo}">{project.demo}</Link></p>
+           <div><Link className="demoLink" to="{project.demo}">{project.demo}</Link>
+           </div>
             <div>{project.tech}</div>
+            </div>        
         </motion.li>
         </motion.li>
 

@@ -4,6 +4,7 @@
 body {
   overflow-x: hidden; 
   overflow-y: scroll;
+
 }
 
 body::-webkit-scrollbar {
@@ -22,31 +23,6 @@ body::-webkit-scrollbar-thumb {
   /* border: 2px solid #ffcce1; */
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-}
-
-.item {
-  margin: 1em; 
-  padding: 1em; 
-  display: flex;
-  flex-direction: column;
-}
-
-.detail {
-  padding: 1em;
-  width: 100%;
-}
-
-h1 {
-  border: 1px solid yellowgreen;
-}
-
-h2 {
-  border-radius: .5em;
-}
-
 
 a, Link {
   text-decoration: none;
@@ -62,6 +38,3 @@ ul, li {
   padding: 1em;
 }
 
-.content {
-  margin: 1em;
-}

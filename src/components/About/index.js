@@ -71,11 +71,9 @@ function About() {
       </div>
 
       <div>
-        <p>
-          <span className="skillSet">
+        <p className="skillSet">
             NoSQL, SQL, APIs; Technical Writing, Communication, Research,
             Conflict Resolution
-          </span>
         </p>
       </div>
     </div>

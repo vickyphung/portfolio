@@ -14,7 +14,6 @@ export default function Home () {
         <About />
         <Projects />
         <Contact />
-        ©pinkybear
     </div>
   )
 }
