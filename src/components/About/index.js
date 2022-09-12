@@ -28,8 +28,8 @@ function About() {
       opacity: 1,
       scale: 1,
       transition: {
-        delayChildren: 0.35,
-        staggerChildren: 0.45,
+        delayChildren: 0.15,
+        staggerChildren: 0.25,
       },
     },
   };

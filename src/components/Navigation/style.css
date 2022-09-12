@@ -15,10 +15,12 @@
 .navTitle {
     font-size: 1.5rem;
     font-weight: 500;
-    padding: 1em;
+    padding-left: 3em;
+    padding-top: .5em;
+    padding-bottom: .5em;
     display: flex;
     font-weight: 750;
-    color: #ffcce1;
+    color: #e0be5c;
 }
 
 .navLinks {
@@ -30,7 +32,6 @@
     text-align: center;
     justify-content: center;
     background-color: #e0d7ff;
- 
 }
 
 

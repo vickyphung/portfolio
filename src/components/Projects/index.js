@@ -8,36 +8,39 @@ export default function Projects() {
 const projects = [
 {
     title: "📍 Places",
-    description: "Places to go in the DMV",
+    // description: "Places to go in the DMV",
     github:
     "https://github.com/vickyphung/places-frontend , https://github.com/vickyphung/places_backend",
     demo: "xxxxxxxx",
-    tech: `Users can view, search, post, update, delete, favorite, and review places to go. Search and add places using Google Maps Places API. Full-CRUD MERN app. Still in development.`,
+    demoTitle: "placeswithbear.herokuapp.com",
+    tech: `Users can post, view, update, delete, like, and review places to go in the DMV. Users can also search using the Google Maps Places API and add places from the search results. Full-CRUD MERN app.`,
     id: 1,
     },
     {
     title: "🪐 APOD",
-    description: "Astronomy Picture of the Day",
-    github: "https://github.com/vickyphung/APOD",
-    demo: "http://apodwithbear.herokuapp.com/",
-    tech: `View daily APOD, a random number of posts, or pick by date. React SPA, NASA APOD API.`,
+    // description: "Astronomy Picture of the Day",
+    github: "github.com/vickyphung/APOD",
+    demo: "https://apodwithbear.herokuapp.com",
+    demoTitle: "apodwithbear.herokuapp.com",
+    tech: `View the astronomy picture of the day, pick by date, or return a selected number of random posts. NASA APOD API, React SPA.`,
     id: 2,
     },
     {
-    title: "🂡 Blackjack",
-    description: "Blackjack Card Game",
+    title: "🃏 Blackjack",
+    // description: "Blackjack Card Game",
     github: "https://github.com/vickyphung/blackjack",
-    demo: "http://blackjackwithbear.netlify.com/",
-    tech: "Players have a $1,000 bankroll. Vanilla JS.",
-
+    demo: "https://blackjackwithbear.netlify.com",
+    demoTitle: "blackjackwithbear.netlify.com",
+    tech: "Blackjack card game. Player vs. Dealer. Players have a $1,000 bankroll. Vanilla JavaScript.",
     id: 3,
     },
     {
     title: "🌞 Weather",
-    description: "Current, Hourly, Weekly Weather",
+    // description: "Current, Hourly, Weekly Weather",
     github: "https://github.com/vickyphung/weather-react",
-    demo: "http://weatherwithbear.herokuapp.com/",
-    tech: "View weather by zipcode search, provides geolocation info., dark mode option. React SPA, openweather API.",
+    demo: "https://weatherwithbear.herokuapp.com",
+    demoTitle: "weatherwithbear.herokuapp.com",
+    tech: "View the current, hourly, and weekly weather by zipcode search, fetch geolocation info, offers dark mode. openWeather API, React SPA.",
     id: 4,
     },
     // {
@@ -92,25 +95,40 @@ return (
         className="projectListItem"
         >
 
-        <div className="projects">
+        <div className="projectTitle">
         <h2>
-            <span className="projectTitle">{project.title}</span>
+           {project.title}
         </h2>
         </div>
         
-        <motion.li
+        {/* <motion.li
             variants={item}
             project={project}
             key={project.id}
-            className="projectItem"
-        >
-            <div className="projectText">
-            <div>{project.description}</div>
-           <div><Link className="demoLink" to="{project.demo}">{project.demo}</Link>
-           </div>
-            <div>{project.tech}</div>
-            </div>        
-        </motion.li>
+            className="projectText"
+        > */}
+
+          
+
+            <div className="projectNameLink">
+                {/* <div className="projectSubtitle">
+                    {project.description}
+                </div> */}
+
+                <div className="projectLink">
+                        <a href={project.demo}>
+                            {project.demoTitle}
+                        </a>
+                </div>
+          
+
+                <div className="projectDesc">
+                    {project.tech}
+                </div>
+               
+                </div>
+        {/* </motion.li> */}
+
         </motion.li>
 
     ))}

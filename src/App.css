@@ -1,6 +1,8 @@
 * {
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Helvetica;
 }
+
+
 body {
   overflow-x: hidden; 
   overflow-y: scroll;
@@ -8,33 +10,42 @@ body {
 }
 
 body::-webkit-scrollbar {
-  background-color: rgb(122, 26, 58);
   width: 6px;
   background-color: transparent;
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #ffcce1;
+  background: #e0be5c;
+}
+
+.App {
+  width: 100%;
 }
 
 .container {
   height: auto;
+  /* border: 2px solid orange; */
   width: 100vw;
-  /* border: 2px solid #ffcce1; */
+
 }
 
 
 a, Link {
   text-decoration: none;
+  color: #e0be5c;
 }
 
 a:hover {
-  /* color: #ffcce1; */
-  font-weight: bold;
+  color: #7d7882;
+  /* font-weight: bold; */
 }
 
-ul, li {
+ li {
   list-style-type: none;
-  padding: 1em;
+  /* padding: .5em; */
+
 }
+
+
+
 
