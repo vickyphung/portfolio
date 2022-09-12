@@ -110,7 +110,7 @@ return (
 
           
 
-            <div className="projectNameLink">
+            <div className="projectInfo">
                 {/* <div className="projectSubtitle">
                     {project.description}
                 </div> */}

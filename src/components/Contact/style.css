@@ -1,33 +1,26 @@
+.contact {
+    /* border-top: 5px solid #e0be5c; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    width: 100%;
+}
+
+/* .contactInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
 .socialIcon {
     width: 48px;
     height: 48px;
     padding: 2em;
 }
 
-
-
-.contactInfo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.contact {
-    border-top: 5px solid #e0be5c;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 40px;
-    flex-wrap: wrap;
-    padding: 1em;
-
-    width: 100vw;
-
-}
-
-
-.email {
+/* .email {
     color: #ffcce1;
-}
+} */
 

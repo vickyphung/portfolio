@@ -7,18 +7,21 @@ export default function Contact() {
     {
       img: "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
       url: "https://github.com/vickyphung",
+      alt: "github"
     },
 
     {
       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png",
       url: "https://www.linkedin.com/in/vicky-phung/",
+      alt: "linked in"
     },
 
     {
       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Circle-icons-mail.svg/2048px-Circle-icons-mail.svg.png",
       url: "mailto:vicky@vicky.wtf",
-      email:"vicky@vicky.wtf"
-    },
+      email: "vicky@vicky.wtf",
+      alt: "email"
+        },
   ];
 
   return (
@@ -29,16 +32,16 @@ export default function Contact() {
               whileHover={{ scale: 1.20 }}
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
             >
-              <div className="contactInfo">
+              {/* <div className="contactInfo"> */}
                 <a href={socialLink.url}>
                   <img
                     className="socialIcon"
                     src={socialLink.img}
-                    alt="github"
+                    alt={socialLink.alt}
                   ></img>
                 </a>
                 {/* <p className="email">{socialLink.email}</p> */}
-              </div>
+              {/* </div> */}
             </motion.div>
           ))}
 

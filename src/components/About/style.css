@@ -1,8 +1,8 @@
 .about {
     padding: 2em;
     margin-bottom: -.25em;
-    border-bottom: 5px solid #e0be5c;
-    border-top: 5px solid #e0be5c;
+    /* border-bottom: 5px solid #e0be5c; */
+    border-top: 3px solid #e0be5c;
     display: flex;
     flex-direction: column;
     justify-content: center;
