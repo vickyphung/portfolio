@@ -2,7 +2,7 @@
 .projectContainer {
     display: flex;
     flex-wrap: wrap;
-    border: 3px solid #e0be5c;
+    /* border: 3px solid #e0be5c; */
     width: 102vw;
 }
 
