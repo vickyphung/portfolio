@@ -14,13 +14,13 @@ import exImage from "../../images/expressjs-icon.svg";
 
 function About() {
   const skillImage = [
-    { image: htmlImage },
-    { image: cssImage },
-    { image: jsImage },
-    { image: mongoImage },
-    { image: exImage },
-    { image: nodeImage },
     { image: reactImage },
+    { image: jsImage },
+    { image: nodeImage },
+    { image: exImage },
+    { image: mongoImage },
+    { image: cssImage },
+    { image: htmlImage },
   ];
 
   const container = {
@@ -72,7 +72,7 @@ function About() {
 
       <div>
         <p className="skillSet">
-            NoSQL, SQL, APIs; Technical Writing, Communication, Research,
+            NoSQL, APIs; Technical Writing, Communication, Research,
             Conflict Resolution
         </p>
       </div>
