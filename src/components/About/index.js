@@ -43,10 +43,11 @@ function About() {
   };
   return (
     <div className="about">
-      <div>
+      <div className="skills">
         <h2>
           <span className="intro">Hi, I'm a Software Engineer. Hire me!</span>
         </h2>
+    
       </div>
 
       <div className="skillsIcons">
@@ -70,10 +71,10 @@ function About() {
         </motion.ul>
       </div>
 
-      <div>
-        <p className="skillSet">
-            NoSQL, APIs; Technical Writing, Communication, Research,
-            Conflict Resolution
+      <div className="skills">
+      <p className="skillSet">
+            React, JavaScript, Node.js, Express.js, MongoDB, CSS3, HTML5</p>
+            <p className="skillSetTwo">NoSQL, APIs; Technical Writing, Communication, Research, Conflict Resolution
         </p>
       </div>
     </div>

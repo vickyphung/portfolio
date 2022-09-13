@@ -33,6 +33,21 @@
   width:90px;
 }
 
-/* .skillset {
 
-} */
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 55px;
+}
+
+.skillSet {
+  /* padding-left: 55px; */
+  letter-spacing: .75px;
+} 
+
+
+.skillSetTwo {
+  margin-top: -5px;
+}
