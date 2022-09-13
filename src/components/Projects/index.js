@@ -11,8 +11,8 @@ const projects = [
     // description: "Places to go in the DMV",
     github:
     "https://github.com/vickyphung/places-frontend , https://github.com/vickyphung/places_backend",
-    demo: "xxxxxxxx",
-    demoTitle: "placeswithbear.herokuapp.com",
+    demo: "https://placeswithbear.netlify.app/",
+    demoTitle: "placeswithbear.netlify.com",
     tech: `Users can post, view, update, delete, like, and review places to go in the DMV. Users can also search using the Google Maps Places API and add places from the search results. Full-CRUD MERN app.`,
     id: 1,
     },
