@@ -21,7 +21,7 @@
     width: 280px;
     border-radius: 15px;
     color: white;
-    height: auto;
+    height: 320px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -65,7 +65,7 @@
     padding: 4em;
     gap: 20px;
     font-weight: 550;
-    margin-top: -1.25em;
+    margin-top: -2em;
 }
 
 .projectLink {
