@@ -45,7 +45,7 @@ function About() {
     <div className="about">
       <div className="skills">
         <h2>
-          <span className="intro">Hi, I'm a Software Engineer. Hire me!</span>
+          <span className="intro">Hi, I'm a Software Engineer.</span>
         </h2>
     
       </div>
