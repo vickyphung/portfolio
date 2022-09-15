@@ -32,7 +32,6 @@ export default function Contact() {
               whileHover={{ scale: 1.20 }}
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
             >
-              {/* <div className="contactInfo"> */}
                 <a href={socialLink.url}>
                   <img
                     className="socialIcon"
@@ -40,8 +39,6 @@ export default function Contact() {
                     alt={socialLink.alt}
                   ></img>
                 </a>
-                {/* <p className="email">{socialLink.email}</p> */}
-              {/* </div> */}
             </motion.div>
           ))}
 
