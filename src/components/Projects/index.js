@@ -44,7 +44,7 @@ export default function Projects() {
       img: "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
       demo: "https://weatherwithbear.herokuapp.com",
       demoTitle: "weatherwithbear.herokuapp.com",
-      tech: "View current weather and conditions by zipcode search. Includes hourly and weekly forecast. Provides geolocation info and offers dark mode. Fetches from OpenWeather API, React SPA.",
+      tech: "View current weather and conditions by zip code search. Includes hourly and weekly forecast. Provides geolocation info and offers dark mode. Fetches from OpenWeather API, React SPA.",
       id: 4,
     },
     // {
