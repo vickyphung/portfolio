@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 export default function Projects() {
   const projects = [
@@ -85,6 +85,7 @@ export default function Projects() {
   };
   return (
     <div className="projectContainer">
+      <h1><span className="title">Projects</span></h1>
       <motion.ul
         className="projectList"
         variants={container}
@@ -105,22 +106,21 @@ export default function Projects() {
             </div>
 
 
-            <div className="projectInfo">
-              <div className="projectLink">
-                <a href={project.demo}>{project.demoTitle}</a>
+           <div className="projInfo">
+              <div className="projectLinkBox">
+                <a className="projectLink" href={project.demo}>{project.demoTitle}</a>
               </div>
 
               <div className="projectDesc">
-                {project.tech}
+              {project.tech}
               </div>
 
-
+              </div>
      
-            </div>
-            
+      
                 <div className="githubIcon">
                     <a href={project.github}>
-                        <img className="gitHubIcon" src={project.img}></img>
+                        <img className="gitHubIcon" src={project.img} alt="githubIcon"></img>
                     </a>
                 </div>
         </div>

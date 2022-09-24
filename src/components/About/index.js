@@ -1,55 +1,53 @@
 import React from "react";
 import "./style.css";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
-import expressImage from "../../images/expressLogo.png";
-import mongoImage from "../../images/mongodb.svg";
-import stara from "../../images/mongodb.svg";
-import nodeImage from "../../images/nodejs.png";
-import htmlImage from "../../images/html5.png";
-import reactImage from "../../images/react.png";
-import cssImage from "../../images/css3.png";
-import jsImage from "../../images/JSlogo.png";
-import exImage from "../../images/expressjs-icon.svg";
+// import mongoImage from "../../images/mongodb.svg";
+// import nodeImage from "../../images/nodejs.png";
+// import htmlImage from "../../images/html5.png";
+// import reactImage from "../../images/react.png";
+// import cssImage from "../../images/css3.png";
+// import jsImage from "../../images/JSlogo.png";
+// import exImage from "../../images/expressjs-icon.svg";
 
 function About() {
-  const skillImage = [
-    { image: reactImage },
-    { image: jsImage },
-    { image: nodeImage },
-    { image: exImage },
-    { image: mongoImage },
-    { image: cssImage },
-    { image: htmlImage },
-  ];
+  // const skillImage = [
+  //   { image: reactImage },
+  //   { image: jsImage },
+  //   { image: nodeImage },
+  //   { image: exImage },
+  //   { image: mongoImage },
+  //   { image: cssImage },
+  //   { image: htmlImage },
+  // ];
 
-  const container = {
-    visible: {
-      opacity: 1,
-      scale: 1,
-      transition: {
-        delayChildren: 0.15,
-        staggerChildren: 0.25,
-      },
-    },
-  };
+  // const container = {
+  //   visible: {
+  //     opacity: 1,
+  //     scale: 1,
+  //     transition: {
+  //       delayChildren: 0.15,
+  //       staggerChildren: 0.25,
+  //     },
+  //   },
+  // };
 
-  const item = {
-    hidden: { y: 20, opacity: 0 },
-    visible: {
-      y: 0,
-      opacity: 1,
-    },
-  };
+  // const item = {
+  //   hidden: { y: 20, opacity: 0 },
+  //   visible: {
+  //     y: 0,
+  //     opacity: 1,
+  //   },
+  // };
   return (
     <div className="about">
       <div className="skills">
-        <h2>
-          <span className="intro">Hi, I'm a Software Engineer.</span>
-        </h2>
+        <h1>
+          <span className="intro">Software Engineer</span>
+        </h1>
     
       </div>
-
+{/* 
       <div className="skillsIcons">
         <motion.ul
           variants={container}
@@ -70,13 +68,13 @@ function About() {
           ))}
         </motion.ul>
       </div>
+*/}
 
-      <div className="skills">
       <p className="skillSet">
-            React, JavaScript, Node.js, Express.js, MongoDB, CSS3, HTML5</p>
-            <p className="skillSetTwo">NoSQL, APIs; Technical Writing, Communication, Research, Conflict Resolution
+            React, JavaScript, Node.js, Express.js, MongoDB, CSS3, HTML5 <br />
+            NoSQL, APIs; Technical Writing, Communication, Research, Conflict Resolution
         </p>
-      </div>
+
     </div>
   );
 }

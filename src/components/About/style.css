@@ -1,31 +1,24 @@
 .about {
-    padding: 2em;
-    margin-bottom: -.25em;
-    /* border-bottom: 5px solid #e0be5c; */
-    /* border-top: 3px solid #e0be5c; */
+
+  margin-top: 2.5em;
+  margin-left: 0;
+  padding:1em;
+    /* border: 3px solid #e0be5c; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
   }
 
 .skillSetIcon {
   height: 56px;
   width: auto;
   padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-
 }
 
 .skillsIcons{
   display: flex;
-  flex-wrap: wrap;
-  margin-top: -12.5px;
-  margin-bottom: -12.5px;
-
+  padding: 1em;
 }
 
 .expressIcon{
@@ -33,20 +26,19 @@
 }
 
 
-.skills {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-left: 40px;
+
+.intro {
+  font-size: 3rem;
+  color: white;
 }
 
-.skillSet {
-  /* padding-left: 55px; */
-  letter-spacing: .75px;
-} 
+ .skillSet {
+  padding: 1em;
+  font-size: 1.15rem;
+  color: rgb(235, 172, 172);
+}
 
 
+/*
 .skillSetTwo {
-  margin-top: -5px;
-}
+} */
