@@ -7,25 +7,38 @@ export default function Contact() {
     {
       img: "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
       url: "https://github.com/vickyphung",
-      alt: "github"
+      alt: "github",
+      title: "https://github.com/vickyphung",
+
     },
 
     {
       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png",
       url: "https://www.linkedin.com/in/vicky-phung/",
-      alt: "linked in"
+      alt: "linked in",
+      title:"https://www.linkedin.com/in/vicky-phung/",
+
     },
 
     {
       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Circle-icons-mail.svg/2048px-Circle-icons-mail.svg.png",
       url: "mailto:vicky@vicky.wtf",
       email: "vicky@vicky.wtf",
-      alt: "email"
+      alt: "email",
+      title:"vicky@vicky.wtf",
         },
   ];
 
   return (
-    <div className="contact">
+
+
+<div className="projectContainer">
+    <h1><span className="title">Contact</span></h1>
+
+        <div className="contact">
+
+
+
           {socialLinks.map((socialLink) => (
             <motion.div
               className="box"
@@ -37,11 +50,13 @@ export default function Contact() {
                     className="socialIcon"
                     src={socialLink.img}
                     alt={socialLink.alt}
+                    title={socialLink.title}
                   ></img>
                 </a>
             </motion.div>
           ))}
 
+    </div>
     </div>
   );
 }
