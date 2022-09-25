@@ -72,7 +72,7 @@ function About() {
 
       <p className="skillSet">
             React, JavaScript, Node.js, Express.js, MongoDB, CSS3, HTML5 <br />
-            NoSQL, APIs; Technical Writing, Communication, Research, Conflict Resolution
+            NoSQL, REST APIs; Technical Writing, Communication, Research, Conflict Resolution
         </p>
 
     </div>
