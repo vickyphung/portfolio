@@ -1,7 +1,9 @@
 .contact {
     display: flex;
     padding-left: 3em;
-    padding-bottom: 2em;
+    padding-bottom: 1.5em;
+    padding-top: 1em;
+
 
 }
 
